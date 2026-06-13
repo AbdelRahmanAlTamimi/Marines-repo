@@ -245,8 +245,11 @@ h3 { font-size: 1.25rem; }
   color: var(--color-fg);
 }
 
-.nav__brand svg {
-  color: var(--color-accent);
+.nav__logo {
+  width: 2.25rem;
+  height: 2.25rem;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .nav__links {
